@@ -29,7 +29,7 @@ describe('Auth API v1', function() {
             });
     });
 
-    it('returns an error on POST /api/v1/login with invalid credentials ', function(done) {
+    it('returns an error on  POST /api/v1/login with invalid credentials ', function(done) {
         var user = {
             username: "invalid"
         }
